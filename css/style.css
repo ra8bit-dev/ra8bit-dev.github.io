@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+html,
+body,
+pre,
+code {
+        font-family: "Press Start 2P";
+        background-color: #000000;
+        color:#ffffff;
+}
+
+.div-table {
+  display: table;
+  width: auto;
+  background-color: rgb(19,71,111);
+  border: 1px solid rgb(19,71,111);
+  border-spacing: 5px; 
+}
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.div-table-col {
+  float: left; 
+  display: table-column;
+  width: 20vw;
+  padding-left:8px;
+  background-color: rgb(15,30,48);
+}
