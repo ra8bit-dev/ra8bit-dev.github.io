@@ -984,7 +984,7 @@ const initPriceStats = async () => {
  
                 circSupplyEl.innerHTML = formatAmount(circ);
                 burnedSupplyEl.innerHTML = formatAmount(dead);
-                priceBNBEl.innerHTML = "1BNB = " + formatAmount(oneBNB) + " RA8BIT";
+                priceBNBEl.innerHTML = formatAmount(oneBNB);
                 marketCapEl.innerHTML = "$" + formatAmount(Math.round(circ / oneBNB * myJson.price ));
                 priceSpotEl.innerHTML = "$" + priceFor1BNB;
                 priceSpot1El.innerHTML = "$" + priceFor1ss;
